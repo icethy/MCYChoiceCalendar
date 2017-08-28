@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7FBA3011F53F9BF007249DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FBA3001F53F9BF007249DE /* main.m */; };
+		D7FBA3041F53F9BF007249DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FBA3031F53F9BF007249DE /* AppDelegate.m */; };
+		D7FBA3071F53F9BF007249DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FBA3061F53F9BF007249DE /* ViewController.m */; };
+		D7FBA30C1F53F9BF007249DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FBA30B1F53F9BF007249DE /* Assets.xcassets */; };
+		D7FBA30F1F53F9BF007249DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FBA30D1F53F9BF007249DE /* LaunchScreen.storyboard */; };
+		D7FBA31A1F53F9BF007249DE /* MCYChoiceDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FBA3191F53F9BF007249DE /* MCYChoiceDatePickerTests.m */; };
+		D7FBA3251F53F9BF007249DE /* MCYChoiceDatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FBA3241F53F9BF007249DE /* MCYChoiceDatePickerUITests.m */; };
+		D7FBA3411F53F9F7007249DE /* MCYCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FBA3341F53F9F7007249DE /* MCYCalendar.m */; };
+		D7FBA3421F53F9F7007249DE /* MCYCalendarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FBA3361F53F9F7007249DE /* MCYCalendarItem.m */; };
+		D7FBA3431F53F9F7007249DE /* MCYChoiceDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FBA3381F53F9F7007249DE /* MCYChoiceDateViewController.m */; };
+		D7FBA3441F53F9F7007249DE /* dateChoice_enter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FBA33A1F53F9F7007249DE /* dateChoice_enter@2x.png */; };
+		D7FBA3451F53F9F7007249DE /* dateChoice_enter@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FBA33B1F53F9F7007249DE /* dateChoice_enter@3x.png */; };
+		D7FBA3461F53F9F7007249DE /* dateChoice_previous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FBA33C1F53F9F7007249DE /* dateChoice_previous@2x.png */; };
+		D7FBA3471F53F9F7007249DE /* dateChoice_previous@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FBA33D1F53F9F7007249DE /* dateChoice_previous@3x.png */; };
+		D7FBA3481F53F9F7007249DE /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FBA3401F53F9F7007249DE /* UIColor+Util.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7FBA3161F53F9BF007249DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7FBA2F41F53F9BF007249DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7FBA2FB1F53F9BF007249DE;
+			remoteInfo = MCYChoiceDatePicker;
+		};
+		D7FBA3211F53F9BF007249DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7FBA2F41F53F9BF007249DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7FBA2FB1F53F9BF007249DE;
+			remoteInfo = MCYChoiceDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7FBA2FC1F53F9BF007249DE /* MCYChoiceDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCYChoiceDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FBA3001F53F9BF007249DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7FBA3021F53F9BF007249DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7FBA3031F53F9BF007249DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7FBA3051F53F9BF007249DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7FBA3061F53F9BF007249DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7FBA30B1F53F9BF007249DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7FBA30E1F53F9BF007249DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7FBA3101F53F9BF007249DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FBA3151F53F9BF007249DE /* MCYChoiceDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCYChoiceDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FBA3191F53F9BF007249DE /* MCYChoiceDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCYChoiceDatePickerTests.m; sourceTree = "<group>"; };
+		D7FBA31B1F53F9BF007249DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FBA3201F53F9BF007249DE /* MCYChoiceDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCYChoiceDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FBA3241F53F9BF007249DE /* MCYChoiceDatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCYChoiceDatePickerUITests.m; sourceTree = "<group>"; };
+		D7FBA3261F53F9BF007249DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FBA3331F53F9F7007249DE /* MCYCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCYCalendar.h; sourceTree = "<group>"; };
+		D7FBA3341F53F9F7007249DE /* MCYCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCYCalendar.m; sourceTree = "<group>"; };
+		D7FBA3351F53F9F7007249DE /* MCYCalendarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCYCalendarItem.h; sourceTree = "<group>"; };
+		D7FBA3361F53F9F7007249DE /* MCYCalendarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCYCalendarItem.m; sourceTree = "<group>"; };
+		D7FBA3371F53F9F7007249DE /* MCYChoiceDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCYChoiceDateViewController.h; sourceTree = "<group>"; };
+		D7FBA3381F53F9F7007249DE /* MCYChoiceDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCYChoiceDateViewController.m; sourceTree = "<group>"; };
+		D7FBA33A1F53F9F7007249DE /* dateChoice_enter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dateChoice_enter@2x.png"; sourceTree = "<group>"; };
+		D7FBA33B1F53F9F7007249DE /* dateChoice_enter@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dateChoice_enter@3x.png"; sourceTree = "<group>"; };
+		D7FBA33C1F53F9F7007249DE /* dateChoice_previous@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dateChoice_previous@2x.png"; sourceTree = "<group>"; };
+		D7FBA33D1F53F9F7007249DE /* dateChoice_previous@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dateChoice_previous@3x.png"; sourceTree = "<group>"; };
+		D7FBA33F1F53F9F7007249DE /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		D7FBA3401F53F9F7007249DE /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7FBA2F91F53F9BF007249DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FBA3121F53F9BF007249DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FBA31D1F53F9BF007249DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7FBA2F31F53F9BF007249DE = {
+			isa = PBXGroup;
+			children = (
+				D7FBA2FE1F53F9BF007249DE /* MCYChoiceDatePicker */,
+				D7FBA3181F53F9BF007249DE /* MCYChoiceDatePickerTests */,
+				D7FBA3231F53F9BF007249DE /* MCYChoiceDatePickerUITests */,
+				D7FBA2FD1F53F9BF007249DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7FBA2FD1F53F9BF007249DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7FBA2FC1F53F9BF007249DE /* MCYChoiceDatePicker.app */,
+				D7FBA3151F53F9BF007249DE /* MCYChoiceDatePickerTests.xctest */,
+				D7FBA3201F53F9BF007249DE /* MCYChoiceDatePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7FBA2FE1F53F9BF007249DE /* MCYChoiceDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				D7FBA3321F53F9F7007249DE /* DataPicker */,
+				D7FBA3021F53F9BF007249DE /* AppDelegate.h */,
+				D7FBA3031F53F9BF007249DE /* AppDelegate.m */,
+				D7FBA3051F53F9BF007249DE /* ViewController.h */,
+				D7FBA3061F53F9BF007249DE /* ViewController.m */,
+				D7FBA30B1F53F9BF007249DE /* Assets.xcassets */,
+				D7FBA30D1F53F9BF007249DE /* LaunchScreen.storyboard */,
+				D7FBA3101F53F9BF007249DE /* Info.plist */,
+				D7FBA2FF1F53F9BF007249DE /* Supporting Files */,
+			);
+			path = MCYChoiceDatePicker;
+			sourceTree = "<group>";
+		};
+		D7FBA2FF1F53F9BF007249DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7FBA3001F53F9BF007249DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7FBA3181F53F9BF007249DE /* MCYChoiceDatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7FBA3191F53F9BF007249DE /* MCYChoiceDatePickerTests.m */,
+				D7FBA31B1F53F9BF007249DE /* Info.plist */,
+			);
+			path = MCYChoiceDatePickerTests;
+			sourceTree = "<group>";
+		};
+		D7FBA3231F53F9BF007249DE /* MCYChoiceDatePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7FBA3241F53F9BF007249DE /* MCYChoiceDatePickerUITests.m */,
+				D7FBA3261F53F9BF007249DE /* Info.plist */,
+			);
+			path = MCYChoiceDatePickerUITests;
+			sourceTree = "<group>";
+		};
+		D7FBA3321F53F9F7007249DE /* DataPicker */ = {
+			isa = PBXGroup;
+			children = (
+				D7FBA3331F53F9F7007249DE /* MCYCalendar.h */,
+				D7FBA3341F53F9F7007249DE /* MCYCalendar.m */,
+				D7FBA3351F53F9F7007249DE /* MCYCalendarItem.h */,
+				D7FBA3361F53F9F7007249DE /* MCYCalendarItem.m */,
+				D7FBA3371F53F9F7007249DE /* MCYChoiceDateViewController.h */,
+				D7FBA3381F53F9F7007249DE /* MCYChoiceDateViewController.m */,
+				D7FBA3391F53F9F7007249DE /* Resources */,
+				D7FBA33E1F53F9F7007249DE /* Util */,
+			);
+			path = DataPicker;
+			sourceTree = "<group>";
+		};
+		D7FBA3391F53F9F7007249DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7FBA33A1F53F9F7007249DE /* dateChoice_enter@2x.png */,
+				D7FBA33B1F53F9F7007249DE /* dateChoice_enter@3x.png */,
+				D7FBA33C1F53F9F7007249DE /* dateChoice_previous@2x.png */,
+				D7FBA33D1F53F9F7007249DE /* dateChoice_previous@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7FBA33E1F53F9F7007249DE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D7FBA33F1F53F9F7007249DE /* UIColor+Util.h */,
+				D7FBA3401F53F9F7007249DE /* UIColor+Util.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7FBA2FB1F53F9BF007249DE /* MCYChoiceDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FBA3291F53F9BF007249DE /* Build configuration list for PBXNativeTarget "MCYChoiceDatePicker" */;
+			buildPhases = (
+				D7FBA2F81F53F9BF007249DE /* Sources */,
+				D7FBA2F91F53F9BF007249DE /* Frameworks */,
+				D7FBA2FA1F53F9BF007249DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCYChoiceDatePicker;
+			productName = MCYChoiceDatePicker;
+			productReference = D7FBA2FC1F53F9BF007249DE /* MCYChoiceDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7FBA3141F53F9BF007249DE /* MCYChoiceDatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FBA32C1F53F9BF007249DE /* Build configuration list for PBXNativeTarget "MCYChoiceDatePickerTests" */;
+			buildPhases = (
+				D7FBA3111F53F9BF007249DE /* Sources */,
+				D7FBA3121F53F9BF007249DE /* Frameworks */,
+				D7FBA3131F53F9BF007249DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7FBA3171F53F9BF007249DE /* PBXTargetDependency */,
+			);
+			name = MCYChoiceDatePickerTests;
+			productName = MCYChoiceDatePickerTests;
+			productReference = D7FBA3151F53F9BF007249DE /* MCYChoiceDatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7FBA31F1F53F9BF007249DE /* MCYChoiceDatePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FBA32F1F53F9BF007249DE /* Build configuration list for PBXNativeTarget "MCYChoiceDatePickerUITests" */;
+			buildPhases = (
+				D7FBA31C1F53F9BF007249DE /* Sources */,
+				D7FBA31D1F53F9BF007249DE /* Frameworks */,
+				D7FBA31E1F53F9BF007249DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7FBA3221F53F9BF007249DE /* PBXTargetDependency */,
+			);
+			name = MCYChoiceDatePickerUITests;
+			productName = MCYChoiceDatePickerUITests;
+			productReference = D7FBA3201F53F9BF007249DE /* MCYChoiceDatePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7FBA2F41F53F9BF007249DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "马春燕";
+				TargetAttributes = {
+					D7FBA2FB1F53F9BF007249DE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D7FBA3141F53F9BF007249DE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7FBA2FB1F53F9BF007249DE;
+					};
+					D7FBA31F1F53F9BF007249DE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7FBA2FB1F53F9BF007249DE;
+					};
+				};
+			};
+			buildConfigurationList = D7FBA2F71F53F9BF007249DE /* Build configuration list for PBXProject "MCYChoiceDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7FBA2F31F53F9BF007249DE;
+			productRefGroup = D7FBA2FD1F53F9BF007249DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7FBA2FB1F53F9BF007249DE /* MCYChoiceDatePicker */,
+				D7FBA3141F53F9BF007249DE /* MCYChoiceDatePickerTests */,
+				D7FBA31F1F53F9BF007249DE /* MCYChoiceDatePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7FBA2FA1F53F9BF007249DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FBA3451F53F9F7007249DE /* dateChoice_enter@3x.png in Resources */,
+				D7FBA30F1F53F9BF007249DE /* LaunchScreen.storyboard in Resources */,
+				D7FBA30C1F53F9BF007249DE /* Assets.xcassets in Resources */,
+				D7FBA3441F53F9F7007249DE /* dateChoice_enter@2x.png in Resources */,
+				D7FBA3471F53F9F7007249DE /* dateChoice_previous@3x.png in Resources */,
+				D7FBA3461F53F9F7007249DE /* dateChoice_previous@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FBA3131F53F9BF007249DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FBA31E1F53F9BF007249DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7FBA2F81F53F9BF007249DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FBA3071F53F9BF007249DE /* ViewController.m in Sources */,
+				D7FBA3041F53F9BF007249DE /* AppDelegate.m in Sources */,
+				D7FBA3011F53F9BF007249DE /* main.m in Sources */,
+				D7FBA3481F53F9F7007249DE /* UIColor+Util.m in Sources */,
+				D7FBA3431F53F9F7007249DE /* MCYChoiceDateViewController.m in Sources */,
+				D7FBA3411F53F9F7007249DE /* MCYCalendar.m in Sources */,
+				D7FBA3421F53F9F7007249DE /* MCYCalendarItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FBA3111F53F9BF007249DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FBA31A1F53F9BF007249DE /* MCYChoiceDatePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FBA31C1F53F9BF007249DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FBA3251F53F9BF007249DE /* MCYChoiceDatePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7FBA3171F53F9BF007249DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7FBA2FB1F53F9BF007249DE /* MCYChoiceDatePicker */;
+			targetProxy = D7FBA3161F53F9BF007249DE /* PBXContainerItemProxy */;
+		};
+		D7FBA3221F53F9BF007249DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7FBA2FB1F53F9BF007249DE /* MCYChoiceDatePicker */;
+			targetProxy = D7FBA3211F53F9BF007249DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7FBA30D1F53F9BF007249DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FBA30E1F53F9BF007249DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7FBA3271F53F9BF007249DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7FBA3281F53F9BF007249DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7FBA32A1F53F9BF007249DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCYChoiceDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icethyma.MCYChoiceDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7FBA32B1F53F9BF007249DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCYChoiceDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icethyma.MCYChoiceDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7FBA32D1F53F9BF007249DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCYChoiceDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icethyma.MCYChoiceDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCYChoiceDatePicker.app/MCYChoiceDatePicker";
+			};
+			name = Debug;
+		};
+		D7FBA32E1F53F9BF007249DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCYChoiceDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icethyma.MCYChoiceDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCYChoiceDatePicker.app/MCYChoiceDatePicker";
+			};
+			name = Release;
+		};
+		D7FBA3301F53F9BF007249DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCYChoiceDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icethyma.MCYChoiceDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCYChoiceDatePicker;
+			};
+			name = Debug;
+		};
+		D7FBA3311F53F9BF007249DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCYChoiceDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icethyma.MCYChoiceDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCYChoiceDatePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7FBA2F71F53F9BF007249DE /* Build configuration list for PBXProject "MCYChoiceDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FBA3271F53F9BF007249DE /* Debug */,
+				D7FBA3281F53F9BF007249DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FBA3291F53F9BF007249DE /* Build configuration list for PBXNativeTarget "MCYChoiceDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FBA32A1F53F9BF007249DE /* Debug */,
+				D7FBA32B1F53F9BF007249DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FBA32C1F53F9BF007249DE /* Build configuration list for PBXNativeTarget "MCYChoiceDatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FBA32D1F53F9BF007249DE /* Debug */,
+				D7FBA32E1F53F9BF007249DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FBA32F1F53F9BF007249DE /* Build configuration list for PBXNativeTarget "MCYChoiceDatePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FBA3301F53F9BF007249DE /* Debug */,
+				D7FBA3311F53F9BF007249DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7FBA2F41F53F9BF007249DE /* Project object */;
+}
